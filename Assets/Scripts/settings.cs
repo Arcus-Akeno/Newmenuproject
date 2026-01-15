@@ -5,6 +5,7 @@ public class settings : MonoBehaviour
 {
     public AudioMixer mixer;
 
+    [Tooltip("will change overall audio input including music and SFX")]
     public void mastervolume(float volume)
     {
         mixer.SetFloat("master", volume);
