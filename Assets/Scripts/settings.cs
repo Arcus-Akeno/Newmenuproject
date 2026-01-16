@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Audio;
 
 public class settings : MonoBehaviour
-{
+{//For changing volume
     public AudioMixer mixer;
 
     [Tooltip("will change overall audio input including music and SFX")]
